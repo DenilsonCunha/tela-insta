@@ -67,3 +67,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center'
   },
+  logo:{
+    marginTop: Platform.OS === 'android' ? '13%' : '20%',
+    marginBottom: Platform.OS === 'android' ? '13%' : '15%',
+  },
