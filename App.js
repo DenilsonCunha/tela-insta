@@ -33,3 +33,6 @@ export default function App() {
        </TouchableOpacity>
      </View>
 
+     <TouchableOpacity style={styles.loginButton}>
+       <Text style={styles.loginText}>Acessar</Text>
+     </TouchableOpacity>
