@@ -71,3 +71,12 @@ const styles = StyleSheet.create({
     marginTop: Platform.OS === 'android' ? '13%' : '20%',
     marginBottom: Platform.OS === 'android' ? '13%' : '15%',
   },
+  input: {
+    width: '90%',
+    height: 42,
+    backgroundColor: '#F4F3F3',
+    marginBottom: 20,
+    padding: 8,
+    borderRadius: 5,
+    borderWidth: 1,
+    borderColor: '#E0E0E0'
