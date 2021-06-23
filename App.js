@@ -124,3 +124,16 @@ const styles = StyleSheet.create({
     backgroundColor: '#EFEDED',
     borderRadius: 5,
   },
+  signUpContainer:{
+    flexDirection: 'row',
+    marginTop: '10%',
+  },
+  signUpText:{
+    color: '#C4c4c4',
+    paddingRight: 5,
+  },
+  signUpButton: {
+    color: '#399fff',
+    fontWeight: 'bold'
+  }
+});
