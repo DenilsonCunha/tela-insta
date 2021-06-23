@@ -36,3 +36,8 @@ export default function App() {
      <TouchableOpacity style={styles.loginButton}>
        <Text style={styles.loginText}>Acessar</Text>
      </TouchableOpacity>
+
+     <TouchableOpacity style={styles.facebookContainer}>
+       <FontAwesome5 name="facebook" size={25} color="#399fff"/>
+       <Text style={styles.facebookText}>Continue como Denilson</Text>
+     </TouchableOpacity>
