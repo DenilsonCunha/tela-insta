@@ -54,3 +54,9 @@ export default function App() {
          <Text style={styles.signUpButton}>Cadastre-se</Text>
        </TouchableOpacity>
      </View>
+
+     </View>
+    </TouchableWithoutFeedback>
+    </KeyboardAvoidingView>
+  );
+}
