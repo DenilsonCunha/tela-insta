@@ -60,3 +60,10 @@ export default function App() {
     </KeyboardAvoidingView>
   );
 }
+
+const styles = StyleSheet.create({
+  container: {
+    backgroundColor: '#FFF',
+    alignItems: 'center',
+    justifyContent: 'center'
+  },
