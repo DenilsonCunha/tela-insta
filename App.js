@@ -80,3 +80,20 @@ const styles = StyleSheet.create({
     borderRadius: 5,
     borderWidth: 1,
     borderColor: '#E0E0E0'
+  },
+  forgotContainer: {
+    width: '90%',
+    alignItems: 'flex-end'
+  },
+  forgotText:{
+    color: '#399fff'
+  },
+  loginButton:{
+    marginTop: '5%',
+    backgroundColor: '#399fff',
+    width: '90%',
+    height: 42,
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderRadius: 5,
+  },
