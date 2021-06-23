@@ -97,3 +97,17 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     borderRadius: 5,
   },
+  loginText:{
+    color: '#fff',
+    fontSize: 17
+  },
+  facebookContainer:{
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginTop: '15%',
+  },
+  facebookText:{
+   color: '#399fff',
+   paddingLeft: 8,
+   fontSize:15
+  },
