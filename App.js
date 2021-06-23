@@ -111,3 +111,16 @@ const styles = StyleSheet.create({
    paddingLeft: 8,
    fontSize:15
   },
+  divisor:{
+    marginTop: '10%',
+    flexDirection: 'row',
+    width: '90%',
+    alignItems: 'center',
+    justifyContent: 'center'
+  },
+  divisorline: {
+    width: '45%',
+    height: 2,
+    backgroundColor: '#EFEDED',
+    borderRadius: 5,
+  },
