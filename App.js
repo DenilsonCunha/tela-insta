@@ -26,3 +26,10 @@ export default function App() {
      placeholder="Sua senha"
      style={styles.input}
      />
+
+<View style={styles.forgotContainer}>
+       <TouchableOpacity>
+         <Text style={styles.forgotText}>Esqueceu sua senha?</Text>
+       </TouchableOpacity>
+     </View>
+
