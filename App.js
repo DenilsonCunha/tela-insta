@@ -47,3 +47,10 @@ export default function App() {
        <Text styles={{marginHorizontal: '3%'}}>OU</Text>
        <View style={styles.divisorline}></View>
      </View>
+
+     <View style={styles.signUpContainer}>
+       <Text style={styles.signUpText}>Não possui uma conta?</Text>
+       <TouchableOpacity>
+         <Text style={styles.signUpButton}>Cadastre-se</Text>
+       </TouchableOpacity>
+     </View>
