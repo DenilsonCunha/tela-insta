@@ -41,3 +41,9 @@ export default function App() {
        <FontAwesome5 name="facebook" size={25} color="#399fff"/>
        <Text style={styles.facebookText}>Continue como Denilson</Text>
      </TouchableOpacity>
+
+     <View style={styles.divisor}>
+       <View style={styles.divisorline}></View>
+       <Text styles={{marginHorizontal: '3%'}}>OU</Text>
+       <View style={styles.divisorline}></View>
+     </View>
